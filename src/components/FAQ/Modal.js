@@ -59,14 +59,6 @@ class Modal extends React.PureComponent {
           </p>
           <p>
             <strong>
-              Använder hemsidan cookies?
-              <br />
-            </strong>
-            Webappen använder sig av Google Analytics för att spåra trafik. Däremot så sparas inte
-            data som har med enskild användare att göra.
-          </p>
-          <p>
-            <strong>
               Varför funkar inte ...XXX?
               <br />
             </strong>
