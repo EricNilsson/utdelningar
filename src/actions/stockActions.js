@@ -27,7 +27,7 @@ export const addStock = (name, api_id) => {
 
           // only add current year of dividends
           data.dividends = data.dividends.filter(el =>
-            el.exDate.includes("2019")
+            el.exDate.includes("2021")
           );
 
           // set price to two decimals
