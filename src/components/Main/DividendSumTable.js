@@ -76,7 +76,7 @@ class DividendSumTable extends React.PureComponent {
       <Parent>
         <Child>
           <Head>
-            <p>Totalt utdelningar 2019</p>
+            <p>Totalt utdelningar 2021</p>
           </Head>
           <Content>
             <p>
