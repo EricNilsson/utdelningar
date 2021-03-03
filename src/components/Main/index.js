@@ -26,18 +26,18 @@ class Main extends React.PureComponent {
       portfolioSum = portfolio.map(value => value.value).reduce((prev, next) => prev + next);
     }
 
-    const jan = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-01')) : 0;
-    const feb = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-02')) : 0;
-    const mar = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-03')) : 0;
-    const apr = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-04')) : 0;
-    const may = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-05')) : 0;
-    const jun = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-06')) : 0;
-    const jul = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-07')) : 0;
-    const aug = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-08')) : 0;
-    const sep = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-09')) : 0;
-    const okt = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-10')) : 0;
-    const nov = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-11')) : 0;
-    const dec = portfolio != null ? Math.round(getDividendMonth(portfolio, '2019-12')) : 0;
+    const jan = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-01')) : 0;
+    const feb = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-02')) : 0;
+    const mar = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-03')) : 0;
+    const apr = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-04')) : 0;
+    const may = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-05')) : 0;
+    const jun = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-06')) : 0;
+    const jul = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-07')) : 0;
+    const aug = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-08')) : 0;
+    const sep = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-09')) : 0;
+    const okt = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-10')) : 0;
+    const nov = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-11')) : 0;
+    const dec = portfolio != null ? Math.round(getDividendMonth(portfolio, '2021-12')) : 0;
 
     const q1 = jan + feb + mar;
     const q2 = apr + may + jun;
