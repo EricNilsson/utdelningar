@@ -119,7 +119,7 @@ class EditDividendModal extends React.PureComponent {
   };
 
   state = {
-    exDate: '2019-01-01',
+    exDate: '2021-01-01',
     stock: null,
   };
 
@@ -203,16 +203,16 @@ class EditDividendModal extends React.PureComponent {
           <AddDividendWrap>
             <input
               type="date"
-              min="2019-01-01"
-              max="2019-12-31"
+              min="2021-01-01"
+              max="2021-12-31"
               name="add_dividend"
-              defaultValue="2019-01-01"
+              defaultValue="2021-01-01"
               onChange={this.addexDate}
             />{' '}
             <Button add onClick={this.addDividend}>
               Lägg till utdelning detta datum{' '}
             </Button>{' '}
-            <small> Endast 2019 i format yyyy-mm-dd </small>{' '}
+            <small> Endast 2021 i format yyyy-mm-dd </small>{' '}
           </AddDividendWrap>{' '}
         </div>{' '}
       </ModalContainer>
