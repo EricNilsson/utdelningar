@@ -130,73 +130,73 @@ class StockTable extends React.PureComponent {
           <ChildGrow>
             <Cell>
               <MonthSpan>Jan</MonthSpan>
-              <ul>{this.getList('2019-01')}</ul>
+              <ul>{this.getList('2021-01')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Feb</MonthSpan>
-              <ul>{this.getList('2019-02')}</ul>
+              <ul>{this.getList('2021-02')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Mar</MonthSpan>
-              <ul>{this.getList('2019-03')}</ul>
+              <ul>{this.getList('2021-03')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Apr</MonthSpan>
-              <ul>{this.getList('2019-04')}</ul>
+              <ul>{this.getList('2021-04')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Maj</MonthSpan>
-              <ul>{this.getList('2019-05')}</ul>
+              <ul>{this.getList('2021-05')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Jun</MonthSpan>
-              <ul>{this.getList('2019-06')}</ul>
+              <ul>{this.getList('2021-06')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Jul</MonthSpan>
-              <ul>{this.getList('2019-07')}</ul>
+              <ul>{this.getList('2021-07')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Aug</MonthSpan>
-              <ul>{this.getList('2019-08')}</ul>
+              <ul>{this.getList('2021-08')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Sep</MonthSpan>
-              <ul>{this.getList('2019-09')}</ul>
+              <ul>{this.getList('2021-09')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Okt</MonthSpan>
-              <ul>{this.getList('2019-10')}</ul>
+              <ul>{this.getList('2021-10')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Nov</MonthSpan>
-              <ul>{this.getList('2019-11')}</ul>
+              <ul>{this.getList('2021-11')}</ul>
             </Cell>
           </ChildGrow>
           <ChildGrow>
             <Cell>
               <MonthSpan>Dec</MonthSpan>
-              <ul>{this.getList('2019-12')}</ul>
+              <ul>{this.getList('2021-12')}</ul>
             </Cell>
           </ChildGrow>
         </Parent>
